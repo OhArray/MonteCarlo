@@ -1,22 +1,22 @@
-Class Overview
-=================
 
+Class Overview
+===============
 .. autosummary::
    :toctree: autosummary
 
-   montecarlo.bitstring
-   montecarlo.ising
+   montecarlo.BitString
+   montecarlo.IsingHamiltonian
 
 API Documentation
 =================
 
-.. currentmodule:: montecarlo
+.. currentmodule:: montecarlo 
 
-.. autoclass:: bitstring
+.. autoclass:: BitString 
    :members:
    :special-members:
-   :noindex:
-.. autoclass:: ising
+   :noindex: 
+.. autoclass:: IsingHamiltonian
    :members:
    :special-members:
-   :noindex:
+   :noindex: 

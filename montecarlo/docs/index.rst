@@ -4,10 +4,15 @@
    contain the root `toctree` directive.
 
 Welcome to MonteCarlo's documentation!
+`GitHub Repository <https://github.com/CHEM-PHYS-X684/MonteCarlo>`_
+
 =========================================================
 
+.. automodule:: montecarlo.montecarlo
+    :members:
+
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
 
    getting_started
