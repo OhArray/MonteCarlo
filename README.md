@@ -1,8 +1,8 @@
 MonteCarlo
 ==============================
 [//]: # (Badges)
-[![GitHub Actions Build Status](https://github.com/REPLACE_WITH_OWNER_ACCOUNT/montecarlo/workflows/CI/badge.svg)](https://github.com/REPLACE_WITH_OWNER_ACCOUNT/montecarlo/actions?query=workflow%3ACI)
-[![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/MonteCarlo/branch/main/graph/badge.svg)](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/MonteCarlo/branch/main)
+[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://montecarlo-oharray.readthedocs.io/en/latest/)
+[![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/MonteCarlo/branch/main/graph/badge.svg)](https://codecov.io/gh/OhArray/MonteCarlo/branch/main)
 
 
 monte carlo for energy states
