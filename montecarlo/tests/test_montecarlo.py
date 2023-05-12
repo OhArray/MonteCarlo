@@ -85,13 +85,13 @@ def test_classes():
     print(" Energy = ", e)
     assert(np.isclose(e,-2))
 
-    conf.flip_site(3)
+    conf.flip(3)
     print(conf.array())
     print(" Energy = ", e)
     assert(np.isclose(ham2.energy(conf),-2.002))
     
     # now flip back
-    conf.flip_site(3)
+    conf.flip(3)
     print(conf.array())
     e = ham2.energy(conf)
     print(" Energy = ", e)
@@ -148,25 +148,19 @@ def test_delta_e():
     print(conf)
     print(" Energy = ", e1)
 
-    delta_e1 = ham.delta_e_for_flip(3, conf)
-    delta_e2 = ham.delta_e_for_flip_slow(3, conf)
     delta_e3 = montecarlo.delta_e_for_flip_fast(3, conf.array(), 
                                          ham.nodes[3],
                                          ham.js[3],
                                          ham.mu)
 
-    conf.flip_site(3)
+    conf.flip(3)
     e2 = ham.energy(conf)
     print(conf)
     print(" Energy = ", e2)
 
     print(" delta E: %12.8f" %(e2-e1))
-    print(" delta E: %12.8f" %(delta_e1))
-    print(" delta E: %12.8f" %(delta_e2))
     print(" delta E: %12.8f" %(delta_e3))
 
-    assert(np.isclose(e2-e1, delta_e1))
-    assert(np.isclose(e2-e1, delta_e2))
     assert(np.isclose(e2-e1, delta_e3))
     
 if __name__== "__main__":
