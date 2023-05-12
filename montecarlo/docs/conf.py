@@ -16,9 +16,10 @@
 import os
 import sys
 sys.path.insert(0, os.path.abspath('..'))
+sys.path.insert(0, os.path.abspath('/home/alvarezbobby9/miniconda3/envs/molssi_best_practices/lib/python3.10/site-packages'))
+
 
 import montecarlo
-
 
 # -- Project information -----------------------------------------------------
 
