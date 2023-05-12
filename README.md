@@ -2,7 +2,7 @@ MonteCarlo
 ==============================
 [//]: # (Badges)
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://montecarlo-oharray.readthedocs.io/en/latest/)
-[![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/MonteCarlo/branch/main/graph/badge.svg)](https://codecov.io/gh/OhArray/MonteCarlo/branch/main)
+[![codecov](https://codecov.io/gh/OhArray/MonteCarlo/branch/main/graph/badge.svg)](https://codecov.io/gh/OhArray/MonteCarlo/branch/main)
 
 
 monte carlo for energy states
