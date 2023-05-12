@@ -1,5 +1,5 @@
-import numpy as np
 import montecarlo
+import numpy as np
 
 def metropolis_montecarlo(ham, conf, T=1, nsweep=1000, nburn=100):
     E_samples = np.zeros(nsweep) 
